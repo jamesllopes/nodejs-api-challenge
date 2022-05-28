@@ -1,0 +1,73 @@
+{
+    "banco": {
+        "nome": "Cubos Bank",
+        "numero": "123",
+        "agencia": "0001",
+        "senha": "Cubos123Bank",
+        "numeroConta": 3
+    },
+    "contas": [
+        {
+            "numero": 1,
+            "saldo": 3000,
+            "usuario": {
+                "nome": "Carla Joanes",
+                "cpf": "00099988827",
+                "data_nascimento": "20-12-1990",
+                "telefone": "21999339949",
+                "email": "carlajoanes@gmail.comr",
+                "senha": "carla133"
+            }
+        },
+        {
+            "numero": 2,
+            "saldo": 1000,
+            "usuario": {
+                "nome": "Marcela Joanes",
+                "cpf": "09876543210",
+                "data_nascimento": "15-07-1985",
+                "telefone": "71987444444",
+                "email": "marcelajoanes@gmail.comr",
+                "senha": "marcela123"
+            }
+        }
+    ],
+    "saque": [
+        {
+            "data": "2022-05-21T03:25:03.335Z",
+            "numero_conta": 2,
+            "valor": 1000
+        },
+        {
+            "data": "2022-05-21T03:25:48.123Z",
+            "numero_conta": 1,
+            "valor": 1000
+        }
+    ],
+    "depositos": [
+        {
+            "data": "2022-05-21T03:24:44.753Z",
+            "numero_conta": 2,
+            "valor": 2000
+        },
+        {
+            "data": "2022-05-21T03:24:50.324Z",
+            "numero_conta": 1,
+            "valor": 4000
+        }
+    ],
+    "transferencias": [
+        {
+            "data": "2022-05-21T03:26:04.096Z",
+            "numero_conta_origem": 2,
+            "numero_conta_destino": 1,
+            "valor": 500
+        },
+        {
+            "data": "2022-05-21T03:26:22.094Z",
+            "numero_conta_origem": 1,
+            "numero_conta_destino": 2,
+            "valor": 500
+        }
+    ]
+}
